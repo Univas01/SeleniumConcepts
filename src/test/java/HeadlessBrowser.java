@@ -5,12 +5,15 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -20,12 +23,12 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 
-public class WindowsSwitch {
+public class HeadlessBrowser {
 
     public static WebDriver driver;
     public static Properties prop;
 
-    public WindowsSwitch(){
+    public HeadlessBrowser(){
         try{
             prop = new Properties();
             FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"/config.properties");
@@ -43,11 +46,35 @@ public class WindowsSwitch {
         String browserName = prop.getProperty("browser");
 
         if (browserName.equalsIgnoreCase("chrome")){
+
+            // Option 1
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browsers/chromedriver");
-            driver = new ChromeDriver();
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.setHeadless(true);
+            driver = new ChromeDriver(chromeOptions);
+
+            // Option 2
+            /*System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browsers/chromedriver");
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("headless");
+            driver = new ChromeDriver(options);*/
+
         } else if (browserName.equalsIgnoreCase("firefox")){
-            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"browsers/geckodriver");
-            driver = new FirefoxDriver();
+
+            // Option 1
+            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/browsers/geckodriver");
+            FirefoxOptions firefoxOptions = new FirefoxOptions();
+            firefoxOptions.setHeadless(true);
+            driver = new FirefoxDriver(firefoxOptions);
+
+            //Option 2
+            /*FirefoxBinary firefoxBinary = new FirefoxBinary();
+            firefoxBinary.addCommandLineOptions("--headless");
+            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/browsers/geckodriver");
+            FirefoxOptions firefoxOptions = new FirefoxOptions();
+            firefoxOptions.setBinary(firefoxBinary);
+            driver = new FirefoxDriver(firefoxOptions);*/
+
         } else if (browserName.equalsIgnoreCase("safari")){
             driver = new SafariDriver();
         }
