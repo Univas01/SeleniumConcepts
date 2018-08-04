@@ -1,11 +1,11 @@
 package test.java;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,12 +18,12 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 
-public class ScrollToElementByJS {
+public class ScrollToElement {
 
     public static WebDriver driver;
     public static Properties prop;
 
-    public ScrollToElementByJS() {
+    public ScrollToElement() {
         try {
             prop = new Properties();
             FileInputStream ip = new FileInputStream(System.getProperty("user.dir") + "/config.properties");
@@ -60,16 +60,21 @@ public class ScrollToElementByJS {
     @Test
     public static void findAllLinksTest() {
 
+        driver.findElement(By.xpath("//button[contains(text(), 'Accept')]")).click();
         WebElement contact = driver.findElement(By.linkText("Contact"));
+        WebElement moveToEl = driver.findElement(By.linkText("Cookie Statement"));
 
-        scrollIntoView(contact, driver);
-        contact.click();
+        Actions actions = new Actions(driver);
+        actions.moveToElement(moveToEl).build().perform();
+        
+        try{
+            Thread.sleep(1000);
+            contact.click();
+        } catch (InterruptedException e){
+            e.printStackTrace();
+        }
     }
 
-    public static void scrollIntoView(WebElement element, WebDriver driver) {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].scrollIntoView(true);", element);
-    }
 
     @AfterMethod(enabled = false)
     public void tearDown() {
