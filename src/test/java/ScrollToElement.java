@@ -66,7 +66,7 @@ public class ScrollToElement {
 
         Actions actions = new Actions(driver);
         actions.moveToElement(moveToEl).build().perform();
-        
+
         try{
             Thread.sleep(1000);
             contact.click();
