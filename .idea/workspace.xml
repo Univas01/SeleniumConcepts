@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="621f047e-7799-4642-9298-71787135f3ed" name="Default Changelist" comment="" />
+    <list default="true" id="621f047e-7799-4642-9298-71787135f3ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DynamicWebTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DynamicWebTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/DynamicWebTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/DynamicWebTable.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,35 +22,37 @@
     <session id="1616947620">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1261" />
-          <entry key="properties" value="38" />
+          <entry key="java" value="1355" />
+          <entry key="properties" value="39" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1261" />
-          <entry key="Properties" value="38" />
+          <entry key="JAVA" value="1355" />
+          <entry key="Properties" value="39" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
-          <entry key="properties" value="1" />
+          <entry key="java" value="4" />
+          <entry key="properties" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="Properties" value="1" />
+          <entry key="JAVA" value="4" />
+          <entry key="Properties" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -53,11 +60,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DynamicWebTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-805">
-              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+            <state relative-caret-position="960">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WindowsSwitch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -92,12 +108,16 @@
       <replace>browserName</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicWebTable.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/WindowsSwitch.java" />
       </list>
     </option>
   </component>
@@ -120,12 +140,15 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="737" />
+    <option name="x" value="-240" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -145,19 +168,25 @@
               <item name="SeleniumConcepts" type="b2602c69:ProjectViewProjectNode" />
               <item name="SeleniumConcepts" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumConcepts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumConcepts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533082225604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533360052142" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -180,24 +209,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DynamicWebTable (1)">
+  <component name="RunManager" selected="TestNG.WindowsSwitch">
     <configuration name="DynamicWebTable (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.DynamicWebTable" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicWebTable (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumConcepts" />
       <extension name="coverage">
         <pattern>
@@ -265,20 +278,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WindowsSwitch" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.WindowsSwitch" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.DynamicWebTable (1)" />
-      <item itemvalue="TestNG.DynamicWebTable (4)" />
       <item itemvalue="TestNG.DynamicWebTable (5)" />
       <item itemvalue="TestNG.DynamicWebTable.dynamicWebTableTest" />
       <item itemvalue="TestNG.DynamicWebTable.dynamicWebTableSecondTest" />
+      <item itemvalue="TestNG.WindowsSwitch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WindowsSwitch" />
+        <item itemvalue="TestNG.DynamicWebTable.dynamicWebTableTest" />
         <item itemvalue="TestNG.DynamicWebTable (1)" />
         <item itemvalue="TestNG.DynamicWebTable.dynamicWebTableSecondTest" />
-        <item itemvalue="TestNG.DynamicWebTable.dynamicWebTableTest" />
         <item itemvalue="TestNG.DynamicWebTable (5)" />
-        <item itemvalue="TestNG.DynamicWebTable (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -296,12 +325,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DynamicWebTable_dynamicWebTableSecondTest - 2018.08.01 at 00h 41m 54s.xml">
-      <configuration name="DynamicWebTable.dynamicWebTableSecondTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DynamicWebTable_dynamicWebTableTest - 2018.08.01 at 00h 42m 33s.xml">
-      <configuration name="DynamicWebTable.dynamicWebTableTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DynamicWebTable_(1) - 2018.08.01 at 00h 43m 26s.xml">
       <configuration name="DynamicWebTable (1)" configurationId="TestNG" />
     </history-entry>
@@ -326,11 +349,18 @@
     <history-entry file="DynamicWebTable_(1) - 2018.08.01 at 00h 56m 02s.xml">
       <configuration name="DynamicWebTable (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="DynamicWebTable_dynamicWebTableTest - 2018.08.04 at 06h 12m 05s.xml">
+      <configuration name="DynamicWebTable.dynamicWebTableTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DynamicWebTable_dynamicWebTableTest - 2018.08.04 at 06h 13m 58s.xml">
+      <configuration name="DynamicWebTable.dynamicWebTableTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="737" extended-state="6" />
+    <frame x="-240" y="-1057" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16478191" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11022364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -346,7 +376,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32868218" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
@@ -356,7 +386,7 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32956383" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Run" order="8" weight="0.2819063" />
+      <window_info anchor="right" id="Run" order="8" visible="true" weight="0.28168264" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -383,15 +413,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DynamicWebTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-805">
-          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        <state relative-caret-position="960">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WindowsSwitch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

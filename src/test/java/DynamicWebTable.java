@@ -9,7 +9,6 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -44,8 +43,7 @@ public class DynamicWebTable {
     String afterCountry_xpath = "]/td[3]";
 
 
-    @BeforeMethod
-    public void setUp(){
+    public DynamicWebTable(){
 
         try{
             prop = new Properties();
@@ -56,7 +54,11 @@ public class DynamicWebTable {
         } catch (IOException e){
             e.printStackTrace();
         }
+    }
 
+
+    @BeforeMethod
+    public void setUp(){
         String browserName = prop.getProperty("browser");
 
         if (browserName.equalsIgnoreCase("chrome")){
