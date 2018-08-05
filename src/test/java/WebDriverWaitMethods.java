@@ -1,5 +1,6 @@
 package test.java;
 
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -15,7 +16,7 @@ public class WebDriverWaitMethods {
 
     public static void clickOnElement(WebDriver driver, WebElement element, int timeout){
         WebDriverWait one = new WebDriverWait(driver, timeout);
-        one.until(ExpectedConditions.elementToBeClickable(element));
+        one.ignoring(StaleElementReferenceException.class).until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }
 

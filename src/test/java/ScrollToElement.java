@@ -1,6 +1,7 @@
 package test.java;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -61,22 +62,23 @@ public class ScrollToElement {
     public static void findAllLinksTest() {
 
         driver.findElement(By.xpath("//button[contains(text(), 'Accept')]")).click();
+
         WebElement contact = driver.findElement(By.linkText("Contact"));
         WebElement moveToEl = driver.findElement(By.linkText("Cookie Statement"));
 
         Actions actions = new Actions(driver);
         actions.moveToElement(moveToEl).build().perform();
 
-        try{
-            Thread.sleep(1000);
-            contact.click();
-        } catch (InterruptedException e){
-            e.printStackTrace();
-        }
+        scrollPageDown(driver);
+        contact.click();
     }
 
+    public static void scrollPageDown(WebDriver driver){
+        JavascriptExecutor jse = ((JavascriptExecutor) driver);
+        jse.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+    }
 
-    @AfterMethod(enabled = false)
+    @AfterMethod
     public void tearDown() {
         driver.quit();
     }

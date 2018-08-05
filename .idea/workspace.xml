@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="621f047e-7799-4642-9298-71787135f3ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DynamicWebSerch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DynamicWebSerch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/DynamicWebSerch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/DynamicWebSerch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScrollToElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScrollToElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,14 +29,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="4737" />
+          <entry key="java" value="4899" />
           <entry key="properties" value="142" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4737" />
+          <entry key="JAVA" value="4899" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="142" />
           <entry key="XML" value="2" />
@@ -46,16 +44,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="54" />
-          <entry key="jpg" value="3" />
+          <entry key="java" value="74" />
+          <entry key="jpg" value="5" />
           <entry key="properties" value="11" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="3" />
-          <entry key="JAVA" value="54" />
+          <entry key="Image" value="5" />
+          <entry key="JAVA" value="74" />
           <entry key="Properties" value="11" />
           <entry key="XML" value="4" />
         </counts>
@@ -64,20 +62,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WindowsSwitch.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="224">
+              <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+              <folding>
+                <element signature="method#ScrollToElement#0;class#ScrollToElement#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JavascriptExecutorConcept.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="468">
+              <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
               <folding>
                 <element signature="method#JavascriptExecutorConcept#0;class#JavascriptExecutorConcept#0" />
                 <element signature="method#setUp#0;class#JavascriptExecutorConcept#0" />
@@ -87,28 +88,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToElementByJS.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ScreenShot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="240">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,20 +126,21 @@
         <option value="$PROJECT_DIR$/src/test/java/DynamicWebTable.java" />
         <option value="$PROJECT_DIR$/src/test/java/HeadlessBrowser.java" />
         <option value="$PROJECT_DIR$/src/test/java/GetAllAvailableLinks.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Calender.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalenderByJS.java" />
         <option value="$PROJECT_DIR$/src/test/java/KeyPress.java" />
         <option value="$PROJECT_DIR$/src/test/java/AlertPopUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/WindowsSwitch.java" />
         <option value="$PROJECT_DIR$/src/test/java/FileUpload.java" />
         <option value="$PROJECT_DIR$/src/test/java/ScrollToElementByJS.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ScrollToElement.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ScreenShot.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicWebSerch.java" />
         <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/JavascriptExecutorConcept.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestNGParameterization.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Calender.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ScrollToElement.java" />
       </list>
     </option>
   </component>
@@ -221,11 +208,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533428400725" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533497057410" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -247,42 +234,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.JavascriptExecutorConcept.javascriptTest">
-    <configuration name="DynamicWebSerch.windowSwitchTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.DynamicWebSerch" />
-      <option name="METHOD_NAME" value="windowSwitchTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ScrollToElement.findAllLinksTest">
     <configuration name="JavascriptExecutorConcept (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.JavascriptExecutorConcept" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavascriptExecutorConcept" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumConcepts" />
       <extension name="coverage">
         <pattern>
@@ -334,20 +287,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScrollToElement" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.ScrollToElement" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrollToElement.findAllLinksTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.ScrollToElement" />
+      <option name="METHOD_NAME" value="findAllLinksTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.DynamicWebSerch.windowSwitchTest" />
-      <item itemvalue="TestNG.JavascriptExecutorConcept" />
       <item itemvalue="TestNG.JavascriptExecutorConcept (1)" />
       <item itemvalue="TestNG.JavascriptExecutorConcept.windowSwitchTest" />
       <item itemvalue="TestNG.JavascriptExecutorConcept.javascriptTest" />
+      <item itemvalue="TestNG.ScrollToElement" />
+      <item itemvalue="TestNG.ScrollToElement.findAllLinksTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ScrollToElement.findAllLinksTest" />
+        <item itemvalue="TestNG.ScrollToElement" />
         <item itemvalue="TestNG.JavascriptExecutorConcept.javascriptTest" />
         <item itemvalue="TestNG.JavascriptExecutorConcept.windowSwitchTest" />
         <item itemvalue="TestNG.JavascriptExecutorConcept (1)" />
-        <item itemvalue="TestNG.JavascriptExecutorConcept" />
-        <item itemvalue="TestNG.DynamicWebSerch.windowSwitchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -365,21 +352,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JavascriptExecutorConcept_(1) - 2018.08.05 at 00h 58m 31s.xml">
-      <configuration name="JavascriptExecutorConcept (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="JavascriptExecutorConcept_windowSwitchTest - 2018.08.05 at 00h 59m 39s.xml">
-      <configuration name="JavascriptExecutorConcept.windowSwitchTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="JavascriptExecutorConcept_windowSwitchTest - 2018.08.05 at 01h 00m 31s.xml">
-      <configuration name="JavascriptExecutorConcept.windowSwitchTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="JavascriptExecutorConcept_javascriptTest - 2018.08.05 at 01h 06m 28s.xml">
-      <configuration name="JavascriptExecutorConcept.javascriptTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="JavascriptExecutorConcept_javascriptTest - 2018.08.05 at 01h 10m 08s.xml">
-      <configuration name="JavascriptExecutorConcept.javascriptTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="JavascriptExecutorConcept_javascriptTest - 2018.08.05 at 01h 10m 50s.xml">
       <configuration name="JavascriptExecutorConcept.javascriptTest" configurationId="TestNG" />
     </history-entry>
@@ -395,12 +367,27 @@
     <history-entry file="JavascriptExecutorConcept_javascriptTest - 2018.08.05 at 01h 18m 05s.xml">
       <configuration name="JavascriptExecutorConcept.javascriptTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ScrollToElement - 2018.08.05 at 20h 14m 58s.xml">
+      <configuration name="ScrollToElement" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ScrollToElement_findAllLinksTest - 2018.08.05 at 20h 17m 38s.xml">
+      <configuration name="ScrollToElement.findAllLinksTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ScrollToElement_findAllLinksTest - 2018.08.05 at 20h 19m 00s.xml">
+      <configuration name="ScrollToElement.findAllLinksTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ScrollToElement_findAllLinksTest - 2018.08.05 at 20h 20m 13s.xml">
+      <configuration name="ScrollToElement.findAllLinksTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ScrollToElement_findAllLinksTest - 2018.08.05 at 20h 22m 26s.xml">
+      <configuration name="ScrollToElement.findAllLinksTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-240" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13365282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13365282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -418,7 +405,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32868218" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.280829" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.280829" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -451,42 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Calender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/KeyPress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="method#WindowsSwitch#0;class#KeyPress#0" />
-            <element signature="method#setUp#0;class#KeyPress#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="66" column="93" selection-start-line="66" selection-start-column="93" selection-end-line="66" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="method#ScrollToElement#0;class#ScrollToElement#0" />
-            <element signature="method#setUp#0;class#ScrollToElement#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalenderByJS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -501,51 +452,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/homePage.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HeadlessBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GetAllAvailableLinks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicWebSerch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="87" column="60" lean-forward="true" selection-start-line="87" selection-start-column="60" selection-end-line="87" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WindowsSwitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -556,12 +466,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ScreenShot.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestNGParameterization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding>
+            <element signature="method#TestNGParameterization#0;class#TestNGParameterization#0" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/homePage.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/freecrm.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -573,10 +489,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WindowsSwitch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicWebSerch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="87" column="60" lean-forward="true" selection-start-line="87" selection-start-column="60" selection-end-line="87" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Calender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="81" column="56" lean-forward="true" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="66" column="93" selection-start-line="66" selection-start-column="93" selection-end-line="66" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GetAllAvailableLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HeadlessBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/KeyPress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="method#setUp#0;class#KeyPress#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScreenShot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JavascriptExecutorConcept.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="468">
+          <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
           <folding>
             <element signature="method#JavascriptExecutorConcept#0;class#JavascriptExecutorConcept#0" />
             <element signature="method#setUp#0;class#JavascriptExecutorConcept#0" />
@@ -584,9 +559,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding>
+            <element signature="method#ScrollToElement#0;class#ScrollToElement#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -610,6 +629,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SeleniumConcepts</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -624,6 +656,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
