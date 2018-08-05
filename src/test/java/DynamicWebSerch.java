@@ -76,13 +76,12 @@ public class DynamicWebSerch {
         for(int i=0; i <= resultSize; i++){
             String actualResult = searchResults.get(i).getText();
             System.out.println(actualResult);
-            String expectedResult = "software testing help";
+            String expectedResult = "software testing methodologies";
             if(actualResult.equalsIgnoreCase(expectedResult)){
                 searchResults.get(i).click();
                 break;
             }
-        } System.out.println("No result found");
-
+        }
     }
 
     public static void scrollIntoView(WebElement element, WebDriver driver) {
