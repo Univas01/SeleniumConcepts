@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="621f047e-7799-4642-9298-71787135f3ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ScrollToElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScrollToElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DynamicWebSerch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DynamicWebSerch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,14 +28,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="4899" />
+          <entry key="java" value="4902" />
           <entry key="properties" value="142" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4899" />
+          <entry key="JAVA" value="4902" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="142" />
           <entry key="XML" value="2" />
@@ -44,7 +43,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="74" />
+          <entry key="java" value="80" />
           <entry key="jpg" value="5" />
           <entry key="properties" value="11" />
           <entry key="xml" value="4" />
@@ -53,7 +52,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="74" />
+          <entry key="JAVA" value="80" />
           <entry key="Properties" value="11" />
           <entry key="XML" value="4" />
         </counts>
@@ -62,39 +61,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Calender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="81" column="56" lean-forward="true" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToElement.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DynamicWebSerch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-              <folding>
-                <element signature="method#ScrollToElement#0;class#ScrollToElement#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/JavascriptExecutorConcept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-              <folding>
-                <element signature="method#JavascriptExecutorConcept#0;class#JavascriptExecutorConcept#0" />
-                <element signature="method#setUp#0;class#JavascriptExecutorConcept#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="422">
+              <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -134,13 +114,13 @@
         <option value="$PROJECT_DIR$/src/test/java/ScrollToElementByJS.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ScreenShot.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DynamicWebSerch.java" />
         <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/JavascriptExecutorConcept.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestNGParameterization.java" />
         <option value="$PROJECT_DIR$/src/test/java/Calender.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/ScrollToElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DynamicWebSerch.java" />
       </list>
     </option>
   </component>
@@ -208,7 +188,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533497057410" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533507357778" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -234,8 +214,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ScrollToElement.findAllLinksTest">
-    <configuration name="JavascriptExecutorConcept (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DynamicWebSerch.windowSwitchTest">
+    <configuration name="DynamicWebSerch.windowSwitchTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumConcepts" />
       <extension name="coverage">
         <pattern>
@@ -244,7 +224,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.JavascriptExecutorConcept" />
+      <option name="MAIN_CLASS_NAME" value="test.java.DynamicWebSerch" />
+      <option name="METHOD_NAME" value="windowSwitchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -322,19 +304,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.JavascriptExecutorConcept (1)" />
       <item itemvalue="TestNG.JavascriptExecutorConcept.windowSwitchTest" />
       <item itemvalue="TestNG.JavascriptExecutorConcept.javascriptTest" />
       <item itemvalue="TestNG.ScrollToElement" />
       <item itemvalue="TestNG.ScrollToElement.findAllLinksTest" />
+      <item itemvalue="TestNG.DynamicWebSerch.windowSwitchTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicWebSerch.windowSwitchTest" />
         <item itemvalue="TestNG.ScrollToElement.findAllLinksTest" />
         <item itemvalue="TestNG.ScrollToElement" />
         <item itemvalue="TestNG.JavascriptExecutorConcept.javascriptTest" />
         <item itemvalue="TestNG.JavascriptExecutorConcept.windowSwitchTest" />
-        <item itemvalue="TestNG.JavascriptExecutorConcept (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -352,18 +334,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JavascriptExecutorConcept_javascriptTest - 2018.08.05 at 01h 10m 50s.xml">
-      <configuration name="JavascriptExecutorConcept.javascriptTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="JavascriptExecutorConcept_javascriptTest - 2018.08.05 at 01h 12m 18s.xml">
-      <configuration name="JavascriptExecutorConcept.javascriptTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="JavascriptExecutorConcept_javascriptTest - 2018.08.05 at 01h 13m 31s.xml">
-      <configuration name="JavascriptExecutorConcept.javascriptTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="JavascriptExecutorConcept_javascriptTest - 2018.08.05 at 01h 16m 16s.xml">
-      <configuration name="JavascriptExecutorConcept.javascriptTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="JavascriptExecutorConcept_javascriptTest - 2018.08.05 at 01h 18m 05s.xml">
       <configuration name="JavascriptExecutorConcept.javascriptTest" configurationId="TestNG" />
     </history-entry>
@@ -381,6 +351,18 @@
     </history-entry>
     <history-entry file="ScrollToElement_findAllLinksTest - 2018.08.05 at 20h 22m 26s.xml">
       <configuration name="ScrollToElement.findAllLinksTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ScrollToElement_findAllLinksTest - 2018.08.05 at 20h 23m 13s.xml">
+      <configuration name="ScrollToElement.findAllLinksTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ScrollToElement_findAllLinksTest - 2018.08.05 at 20h 24m 19s.xml">
+      <configuration name="ScrollToElement.findAllLinksTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DynamicWebSerch_windowSwitchTest - 2018.08.05 at 23h 00m 54s.xml">
+      <configuration name="DynamicWebSerch.windowSwitchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DynamicWebSerch_windowSwitchTest - 2018.08.05 at 23h 15m 36s.xml">
+      <configuration name="DynamicWebSerch.windowSwitchTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -445,13 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AlertPopUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -486,27 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WindowsSwitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicWebSerch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="87" column="60" lean-forward="true" selection-start-line="87" selection-start-column="60" selection-end-line="87" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Calender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="81" column="56" lean-forward="true" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -548,17 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JavascriptExecutorConcept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-          <folding>
-            <element signature="method#JavascriptExecutorConcept#0;class#JavascriptExecutorConcept#0" />
-            <element signature="method#setUp#0;class#JavascriptExecutorConcept#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -571,11 +514,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
           <folding>
             <element signature="method#ScrollToElement#0;class#ScrollToElement#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WindowsSwitch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JavascriptExecutorConcept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
+          <folding>
+            <element signature="method#JavascriptExecutorConcept#0;class#JavascriptExecutorConcept#0" />
+            <element signature="method#setUp#0;class#JavascriptExecutorConcept#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AlertPopUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Calender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="81" column="56" lean-forward="true" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicWebSerch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
         </state>
       </provider>
     </entry>
