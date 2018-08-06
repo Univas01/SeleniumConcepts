@@ -1,7 +1,6 @@
 package test.java;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,12 +18,12 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 
-public class DynamicWebSerch {
+public class BootstrapDDM2 {
 
     public static WebDriver driver;
     public static Properties prop;
 
-    public DynamicWebSerch(){
+    public BootstrapDDM2(){
         try{
             prop = new Properties();
             FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"/config.properties");
@@ -55,44 +54,36 @@ public class DynamicWebSerch {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get(prop.getProperty("urlYahoo"));
+        driver.get(prop.getProperty("urlBootsnipp"));
     }
 
     @Test
-    public static void windowSwitchTest(){
+    public static void BootstrapDDMTest(){
+        driver.findElement(By.xpath("//ul[@class='nav navbar-nav navbar-right']//child::li[3]//a[1]")).click();
 
-        WebElement okBtn = driver.findElement(By.xpath("//input[@value='OK']"));
-        scrollIntoView(okBtn,driver);
-        okBtn.click();
+        List<WebElement> list = driver.findElements(By.xpath("//ul[@class='nav navbar-nav navbar-right']//child::li[3]//ul//li"));
+        int objectCount = list.size();
+        System.out.println(objectCount);
 
-        WebElement searchTextBox = driver.findElement(By.xpath("//input[@id='uh-search-box']"));
-        searchTextBox.clear();
-        searchTextBox.sendKeys("Software Testing");
-
-        List<WebElement> searchResults = driver.findElements(By.xpath("//input[@id='uh-search-box']//parent::*/descendant::li"));
-        //input[@id='uh-search-box']//parent::*/descendant::li
-        //ul[contains(@class, 'aclist-list')]//li
-        int resultSize = searchResults.size();
-        System.out.println(resultSize);
-
-        for(int i=0; i <= resultSize; i++){
-            String actualResult = searchResults.get(i).getText();
-            System.out.println(actualResult);
-            String expectedResult = "software testing techniques";
-            if(actualResult.equalsIgnoreCase(expectedResult)){
-                searchResults.get(i).click();
+        for(int i = 0; i < objectCount; i++){
+            String text = list.get(i).getText();
+            System.out.println(text);
+            if(text.equalsIgnoreCase("VirtueMart")){
+                list.get(i).click();
                 break;
             }
-        }
-    }
 
-    public static void scrollIntoView(WebElement element, WebDriver driver) {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].scrollIntoView(true);", element);
+        }
+
+
+
+
+
     }
 
     @AfterMethod
     public void tearDown() {
+
         driver.quit();
     }
 

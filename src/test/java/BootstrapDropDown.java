@@ -1,7 +1,6 @@
 package test.java;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,12 +18,12 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 
-public class DynamicWebSerch {
+public class BootstrapDropDown {
 
     public static WebDriver driver;
     public static Properties prop;
 
-    public DynamicWebSerch(){
+    public BootstrapDropDown(){
         try{
             prop = new Properties();
             FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"/config.properties");
@@ -55,44 +54,47 @@ public class DynamicWebSerch {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get(prop.getProperty("urlYahoo"));
+        driver.get(prop.getProperty("urlBootstrap"));
     }
 
-    @Test
-    public static void windowSwitchTest(){
+    @Test (priority = 1)
+    public static void selectSingleElementTest(){
 
-        WebElement okBtn = driver.findElement(By.xpath("//input[@value='OK']"));
-        scrollIntoView(okBtn,driver);
-        okBtn.click();
+        driver.findElement(By.xpath("//span[contains(@class, 'multiselect-selected')]")).click();
 
-        WebElement searchTextBox = driver.findElement(By.xpath("//input[@id='uh-search-box']"));
-        searchTextBox.clear();
-        searchTextBox.sendKeys("Software Testing");
+        List<WebElement> list = driver.findElements(By.xpath("//ul[contains(@class, 'multiselect-container')]//li"));
+        int ddmCount = list.size();
+        System.out.println("Number of Drop Down Element is " + ddmCount);
 
-        List<WebElement> searchResults = driver.findElements(By.xpath("//input[@id='uh-search-box']//parent::*/descendant::li"));
-        //input[@id='uh-search-box']//parent::*/descendant::li
-        //ul[contains(@class, 'aclist-list')]//li
-        int resultSize = searchResults.size();
-        System.out.println(resultSize);
-
-        for(int i=0; i <= resultSize; i++){
-            String actualResult = searchResults.get(i).getText();
-            System.out.println(actualResult);
-            String expectedResult = "software testing techniques";
-            if(actualResult.equalsIgnoreCase(expectedResult)){
-                searchResults.get(i).click();
+        for (int i = 0; i < ddmCount; i++){
+            String text = list.get(i).getText();
+            System.out.println(text);
+            if(text.equalsIgnoreCase("Oracle")){
+                list.get(i).click();
                 break;
             }
         }
     }
 
-    public static void scrollIntoView(WebElement element, WebDriver driver) {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].scrollIntoView(true);", element);
+    @Test (priority = 2)
+    public static void selectAllElementsTest(){
+
+        driver.findElement(By.xpath("//span[contains(@class, 'multiselect-selected')]")).click();
+
+        List<WebElement> list = driver.findElements(By.xpath("//ul[contains(@class, 'multiselect-container')]//li"));
+        int ddmCount = list.size();
+        System.out.println("Number of Drop Down Element is " + ddmCount);
+
+        for (int i = 0; i < ddmCount; i++){
+            String text = list.get(i).getText();
+            System.out.println(text);
+            list.get(i).click();
+        }
     }
 
     @AfterMethod
     public void tearDown() {
+
         driver.quit();
     }
 
