@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="621f047e-7799-4642-9298-71787135f3ed" name="Default Changelist" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/HiddenWebElement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/test/java/HiddenWebElement.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/config.properties" afterPath="$PROJECT_DIR$/config.properties" />
     </list>
@@ -66,8 +68,8 @@
       <file leaf-file-name="HiddenWebElement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HiddenWebElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2680#2681#0" expanded="true" />
@@ -714,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HiddenWebElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2680#2681#0" expanded="true" />
