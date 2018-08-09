@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -59,16 +58,11 @@ public class ScrollToElement {
     }
 
     @Test
-    public static void findAllLinksTest() {
+    public static void scrollToElementTest() {
 
         driver.findElement(By.xpath("//button[contains(text(), 'Accept')]")).click();
 
         WebElement contact = driver.findElement(By.linkText("Contact"));
-        WebElement moveToEl = driver.findElement(By.linkText("Cookie Statement"));
-
-        Actions actions = new Actions(driver);
-        actions.moveToElement(moveToEl).build().perform();
-
         scrollPageDown(driver);
         contact.click();
     }

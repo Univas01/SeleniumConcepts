@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="621f047e-7799-4642-9298-71787135f3ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Calender.java" afterPath="$PROJECT_DIR$/src/test/java/Calender.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/Calender.class" afterPath="$PROJECT_DIR$/target/classes/test/java/Calender.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/FileUpload.class" afterPath="$PROJECT_DIR$/target/classes/test/java/FileUpload.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/HiddenWebElement.class" afterPath="$PROJECT_DIR$/target/classes/test/java/HiddenWebElement.class" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScrollToElement.java" afterPath="$PROJECT_DIR$/src/test/java/ScrollToElement.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,18 +61,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AlertPopUp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AlertPopUp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/test/java/JavascriptExecutorConcept.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestNGParameterization.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ScrollToElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/DynamicWebSerch.java" />
         <option value="$PROJECT_DIR$/src/test/java/BootstrapDropDown.java" />
         <option value="$PROJECT_DIR$/src/test/java/BootstrapDDM2.java" />
@@ -128,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/test/java/DynamicWebTable.java" />
         <option value="$PROJECT_DIR$/src/test/java/FileUpload.java" />
         <option value="$PROJECT_DIR$/src/test/java/Calender.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ScrollToElement.java" />
       </list>
     </option>
   </component>
@@ -227,103 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FileUpload">
-    <configuration name="Calender" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumConcepts" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.Calender" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="DynamicWebTable" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumConcepts" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.DynamicWebTable" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="DynamicWebTable.dynamicWebTableSecondTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumConcepts" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.DynamicWebTable" />
-      <option name="METHOD_NAME" value="dynamicWebTableSecondTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
+  <component name="RunManager" selected="TestNG.ScrollToElement">
     <configuration name="FileUpload" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -388,20 +277,116 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="ScrollToElement" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumConcepts" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.ScrollToElement" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ScrollToElementByJS.findAllLinksTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumConcepts" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.ScrollToElementByJS" />
+      <option name="METHOD_NAME" value="findAllLinksTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ScrollToElement.scrollToElementTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumConcepts" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.ScrollToElement" />
+      <option name="METHOD_NAME" value="scrollToElementTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.Calender" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.DynamicWebTable.dynamicWebTableSecondTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.DynamicWebTable" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.FileUpload.windowSwitchTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.FileUpload" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.FileUpload.windowSwitchTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.FileUpload" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ScrollToElement.scrollToElementTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.ScrollToElementByJS.findAllLinksTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.ScrollToElement" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.FileUpload" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.FileUpload.windowSwitchTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.DynamicWebTable.dynamicWebTableSecondTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.DynamicWebTable" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.Calender" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ScrollToElement" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ScrollToElementByJS.findAllLinksTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ScrollToElement.scrollToElementTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.FileUpload" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.FileUpload.windowSwitchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -422,18 +407,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Calender - 2018.08.09 at 15h 25m 21s.xml">
-      <configuration name="Calender" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Calender - 2018.08.09 at 15h 26m 01s.xml">
-      <configuration name="Calender" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DynamicWebTable - 2018.08.09 at 15h 27m 52s.xml">
-      <configuration name="DynamicWebTable" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DynamicWebTable_dynamicWebTableSecondTest - 2018.08.09 at 15h 27m 20s.xml">
-      <configuration name="DynamicWebTable.dynamicWebTableSecondTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DynamicWebTable_dynamicWebTableSecondTest - 2018.08.09 at 15h 28m 17s.xml">
       <configuration name="DynamicWebTable.dynamicWebTableSecondTest" configurationId="TestNG" />
     </history-entry>
@@ -443,19 +416,30 @@
     <history-entry file="FileUpload_windowSwitchTest - 2018.08.09 at 15h 29m 11s.xml">
       <configuration name="FileUpload.windowSwitchTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HiddenWebElement_(1) - 2018.08.09 at 13h 29m 45s.xml">
-      <configuration name="HiddenWebElement (1)" configurationId="TestNG" />
+    <history-entry file="ScrollToElement - 2018.08.09 at 15h 40m 37s.xml">
+      <configuration name="ScrollToElement" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HiddenWebElement_(3) - 2018.08.09 at 12h 49m 48s.xml">
-      <configuration name="HiddenWebElement (3)" configurationId="TestNG" />
+    <history-entry file="ScrollToElementByJS_findAllLinksTest - 2018.08.09 at 15h 39m 46s.xml">
+      <configuration name="ScrollToElementByJS.findAllLinksTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HiddenWebElement_clickOnHiddenElement - 2018.08.09 at 13h 27m 54s.xml">
-      <configuration name="HiddenWebElement.clickOnHiddenElement" configurationId="TestNG" />
+    <history-entry file="ScrollToElement_scrollToElementTest - 2018.08.09 at 15h 34m 43s.xml">
+      <configuration name="ScrollToElement.scrollToElementTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ScrollToElement_scrollToElementTest - 2018.08.09 at 15h 36m 03s.xml">
+      <configuration name="ScrollToElement.scrollToElementTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ScrollToElement_scrollToElementTest - 2018.08.09 at 15h 36m 51s.xml">
+      <configuration name="ScrollToElement.scrollToElementTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ScrollToElement_scrollToElementTest - 2018.08.09 at 15h 38m 12s.xml">
+      <configuration name="ScrollToElement.scrollToElementTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ScrollToElement_scrollToElementTest - 2018.08.09 at 15h 38m 59s.xml">
+      <configuration name="ScrollToElement.scrollToElementTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1353" y="-1093" width="1920" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -465,7 +449,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23804574" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23804574" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -571,24 +555,6 @@
         <state relative-caret-position="180">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToElementByJS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
-          <folding>
-            <element signature="method#ScrollToElement#0;class#ScrollToElement#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,9 +666,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToElementByJS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="method#ScrollToElement#0;class#ScrollToElement#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AlertPopUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
+        <state relative-caret-position="587">
           <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
           <folding />
         </state>
