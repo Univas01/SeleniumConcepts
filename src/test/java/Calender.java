@@ -76,7 +76,7 @@ public class Calender {
 
         // Loop through each date and select a date
         List<WebElement> departDateList = departingCalenderObject.findElements(By.tagName("div"));
-        String departDatePicker = "10";
+        String departDatePicker = "20";
         for (WebElement departCell : departDateList) {
             if (departCell.getText().equals(departDatePicker)) {
                 System.out.println("Depart date found");
