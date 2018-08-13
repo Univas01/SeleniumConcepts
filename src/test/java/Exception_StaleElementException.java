@@ -57,7 +57,7 @@ public class Exception_StaleElementException {
     }
 
     @Test
-    public static void windowSwitchTest(){
+    public static void staleElementExceptionTest(){
         WebElement bmwCheckBox = driver.findElement(By.xpath("//input[contains(@id, 'bmwcheck')]"));
         /*The below action will reload the page which then automatically refreshes the DOM
         and makes bmwCheckBox unavailable (StaleElementReferenceException is thrown).
