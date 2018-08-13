@@ -1,9 +1,8 @@
 package test.java;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -18,12 +17,12 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 
-public class AlertPopUp {
+public class StaleElementException {
 
     public static WebDriver driver;
     public static Properties prop;
 
-    public AlertPopUp(){
+    public StaleElementException(){
         try{
             prop = new Properties();
             FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"/config.properties");
@@ -44,41 +43,38 @@ public class AlertPopUp {
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browsers/chromedriver");
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")){
-            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/browsers/geckodriver");
+            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"browsers/geckodriver");
             driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("safari")){
             driver = new SafariDriver();
         }
 
         driver.manage().deleteAllCookies();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get(prop.getProperty("urlRediff"));
+        driver.get(prop.getProperty("urlLetsKodeit"));
     }
 
     @Test
-    public static void alertPopUpTest(){
+    public static void windowSwitchTest(){
+        WebElement bmwCheckBox = driver.findElement(By.xpath("//input[contains(@id, 'bmwcheck')]"));
+        /*The below action will reload the page which then automatically refreshes the DOM
+        and makes bmwCheckBox unavailable (StaleElementReferenceException is thrown).
 
-        driver.findElement(By.xpath("//input[@value='Go']")).click();
-        Alert alert = driver.switchTo().alert();
-        String alertText = alert.getText();
+        Solution:
+        Comment getCurrentUrl code and run test again - no error will be thrown.
+        To resolve stale element exception, ensure you perform on element after identifying such element
+        https://www.youtube.com/watch?v=yYQrtmNn6Uo
+        */
 
-        try{
-            if(alertText.equalsIgnoreCase("Please enter a valid user name")){
-                System.out.println("Validation message is correct");
-            } else {
-                System.out.println("Incorrect validation message");
-            }
-        } catch (UnhandledAlertException e){
-            e.printStackTrace();
-        } finally {
-            alert.accept();
-        }
+        driver.get(driver.getCurrentUrl());
+        bmwCheckBox.click();
     }
 
     @AfterMethod
     public void tearDown() {
+
         driver.quit();
     }
 
