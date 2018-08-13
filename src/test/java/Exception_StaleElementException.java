@@ -17,12 +17,12 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 
-public class StaleElementException {
+public class Exception_StaleElementException {
 
     public static WebDriver driver;
     public static Properties prop;
 
-    public StaleElementException(){
+    public Exception_StaleElementException(){
         try{
             prop = new Properties();
             FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"/config.properties");
