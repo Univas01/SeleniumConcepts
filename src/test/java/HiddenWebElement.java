@@ -57,7 +57,7 @@ public class HiddenWebElement {
         driver.get(prop.getProperty("urlHidden"));
     }
 
-    @Test(enabled = false)
+    @Test
     public static void hiddenWebElementTest() {
 
         List<WebElement> radioBtn = driver.findElements(By.id("male"));
@@ -74,6 +74,7 @@ public class HiddenWebElement {
 
     @Test
     public static void clickOnHiddenElement() {
+
         hiddenWebElementTest2("radio");
     }
 
