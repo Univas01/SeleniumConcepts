@@ -18,12 +18,12 @@ import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class Frames {
+public class FindElementInFrames {
 
     public static WebDriver driver;
     public static Properties prop;
 
-    public Frames(){
+    public FindElementInFrames(){
         try{
             prop = new Properties();
             FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"/config.properties");
@@ -89,11 +89,11 @@ public class Frames {
         for(i = 0; i < frameCount.size(); i++){
             driver.switchTo().frame(i);
             List<WebElement> count = driver.findElements(by);
-            if(count.size()>0){
-                driver.findElement(by).click();
+            if(count.size()>0){ // If count.size is greater than Zero, then it means element is present
+                System.out.println("Element is present in the frame");
                 break;
             } else {
-                System.out.println("continue looping");
+                System.out.println("Continue looping");
             }
         }
         driver.switchTo().defaultContent();
@@ -103,7 +103,7 @@ public class Frames {
     @AfterMethod
     public void tearDown() {
 
-        driver.quit();
+       // driver.quit();
     }
 
 }
