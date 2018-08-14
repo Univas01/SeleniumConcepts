@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="621f047e-7799-4642-9298-71787135f3ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/FindElementInFrames.java" afterPath="$PROJECT_DIR$/src/test/java/FindElementInFrames.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Exception_ElementNotClickable.java" afterPath="$PROJECT_DIR$/src/test/java/Exception_ElementNotClickable.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Exception_NoSuchElementException.java" afterPath="$PROJECT_DIR$/src/test/java/Exception_NoSuchElementException.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,10 +116,10 @@
         <option value="$PROJECT_DIR$/src/test/java/Exception_StaleElementException.java" />
         <option value="$PROJECT_DIR$/src/test/java/HiddenWebElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Exception_NoSuchElementException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Exception_ElementNotClickable.java" />
         <option value="$PROJECT_DIR$/src/test/java/Frames.java" />
         <option value="$PROJECT_DIR$/src/test/java/FindElementInFrames.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Exception_NoSuchElementException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Exception_ElementNotClickable.java" />
       </list>
     </option>
   </component>
@@ -218,8 +219,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FindElementInFrames">
-    <configuration name="FindElementInFrames" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Exception_StaleElementException">
+    <configuration name="Exception_StaleElementException" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.java.*" />
@@ -231,7 +232,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.FindElementInFrames" />
+      <option name="MAIN_CLASS_NAME" value="test.java.Exception_StaleElementException" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -384,11 +385,11 @@
       <item index="1" class="java.lang.String" itemvalue="TestNG.FindElementInFrames" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.FindElementInFrames" />
       <item index="3" class="java.lang.String" itemvalue="TestNG.FindElementInFrames" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.FindElementInFrames" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.Exception_StaleElementException" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.FindElementInFrames" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.Exception_StaleElementException" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.FindElementInFrames" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.FindElementInFrames" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.FindElementInFrames" />
@@ -413,6 +414,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Exception_StaleElementException - 2018.08.14 at 11h 55m 48s.xml">
+      <configuration name="Exception_StaleElementException" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="Frames - 2018.08.14 at 11h 26m 49s.xml">
       <configuration name="Frames" configurationId="TestNG" />
     </history-entry>
@@ -440,9 +444,6 @@
     <history-entry file="Frames_(5) - 2018.08.14 at 11h 33m 17s.xml">
       <configuration name="Frames (5)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Frames_findNumberOfFramesTest - 2018.08.14 at 11h 18m 14s.xml">
-      <configuration name="Frames.findNumberOfFramesTest" configurationId="TestNG" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="567" y="-1057" width="1920" height="1057" extended-state="0" />
@@ -455,12 +456,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35758835" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35758835" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17944622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17944622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -794,14 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Exception_StaleElementException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="60" column="100" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverWaitMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -852,22 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Exception_NoSuchElementException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="71" column="100" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Exception_ElementNotClickable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WindowsSwitch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -896,6 +873,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Exception_NoSuchElementException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Exception_ElementNotClickable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Exception_StaleElementException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
           <folding />
         </state>
       </provider>

@@ -89,7 +89,7 @@ public class Exception_NoSuchElementException {
     @AfterMethod
     public void tearDown() {
 
-        //driver.quit();
+        driver.quit();
     }
 
 }

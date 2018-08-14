@@ -93,7 +93,7 @@ public class Exception_ElementNotClickable {
     @AfterMethod
     public void tearDown() {
 
-        // driver.quit();
+        driver.quit();
     }
 
 }
