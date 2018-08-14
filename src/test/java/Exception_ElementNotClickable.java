@@ -74,7 +74,7 @@ public class Exception_ElementNotClickable {
     }
 
 
-    @Test
+    @Test (enabled = false)
     public static void elementNotClickableTest1(){
         driver.findElement(By.xpath("//input[contains(@name, 'username')]")).sendKeys("univas01");
         driver.findElement(By.xpath("//input[contains(@name, 'password')]")).sendKeys("Computer1!");
@@ -93,7 +93,7 @@ public class Exception_ElementNotClickable {
     @AfterMethod
     public void tearDown() {
 
-        driver.quit();
+        // driver.quit();
     }
 
 }
