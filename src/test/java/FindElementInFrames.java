@@ -90,7 +90,7 @@ public class FindElementInFrames {
             driver.switchTo().frame(i);
             List<WebElement> count = driver.findElements(by);
             if(count.size()>0){ // If count.size is greater than Zero, then it means element is present
-                System.out.println("Element is present in the frame");
+                System.out.println("Element is present in iframe");
                 break;
             } else {
                 System.out.println("Continue looping");
