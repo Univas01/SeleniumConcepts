@@ -79,7 +79,7 @@ public class HiddenWebElement {
     }
 
     public static void hiddenWebElementTest2(String id) {
-        List<WebElement> radioBtn2 = driver.findElements(By.xpath("//input[@type='" + id + "']"));
+        List<WebElement> radioBtn2 = driver.findElements(By.xpath("//input[@type='"+id+"']"));
         int radioBtnCount2 = radioBtn2.size();
         System.out.println("Total number of Hidden Elements radioBtnCount is " + radioBtnCount2);
     }
